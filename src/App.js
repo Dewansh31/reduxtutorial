@@ -25,11 +25,16 @@ const App = () => {
       <div class="quantity">
         <a class="quantity__minus" title="Decrement" onClick={() => dispatch(decNumber())}><span>-</span></a>
         <input name="quantity" type="text" class="quantity__input" value={changeTheNumber} />
-        <a class="quantity__plus" title="Increment" onClick={() => dispatch(incNumber(5))}><span>+</span></a>
+        <a class="quantity__plus" title="Increment" onClick={() => dispatch(incNumber(10))}><span>+</span></a>
       </div>
   
           </div>
         </div>
+        
+        
+       
+        
+        
     </>
   )
 }
